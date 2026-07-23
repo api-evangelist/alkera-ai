@@ -1,0 +1,26 @@
+generated: '2026-07-17'
+method: searched
+source: https://docs.alkera.ai/installation
+name: Alkera CLI
+binary: alkera
+summary: >-
+  First-party command-line interface for the Alkera data-engineering agent. Runs the
+  agent from the terminal (setup wizard, sign-in, and chat) and manages its own
+  lifecycle. Released in lockstep with the IDE extension under a shared version number.
+install:
+  macos_linux: "curl -fsSL https://releases.alkera.ai/install.sh | sh"
+  windows: "irm https://releases.alkera.ai/install.ps1 | iex"
+architectures: [x64, arm64]
+architecture_notes: "Windows on arm64 runs under emulation."
+commands:
+  - command: alkera
+    description: Launch the agent — setup wizard on first run, then sign in and start a chat.
+  - command: alkera version
+    description: Print the installed CLI version (verify a successful install).
+  - command: alkera update
+    description: Update the CLI to the latest release (completes even while the agent is running).
+  - command: alkera uninstall
+    description: Remove the Alkera CLI.
+docs:
+  installation: https://docs.alkera.ai/installation
+  quickstart: https://docs.alkera.ai/quickstart

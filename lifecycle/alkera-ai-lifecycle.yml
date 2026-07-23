@@ -1,0 +1,18 @@
+generated: '2026-07-17'
+method: searched
+source: https://docs.alkera.ai/changelog
+versioning:
+  scheme: semver
+  current: 0.1.1
+  release_model: >-
+    The IDE extension and the CLI share one version number and are released together.
+  docs: https://docs.alkera.ai/changelog
+deprecation:
+  policy_url: null
+  sunset_header: false
+  notes: No published deprecation/sunset policy found as of this pass.
+sla:
+  url: null
+  notes: SLAs offered on the Enterprise plan (per pricing page); no public SLA document.
+status_page: null
+status_page_notes: No public status page found (status.alkera.ai did not resolve).

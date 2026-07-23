@@ -1,0 +1,34 @@
+generated: '2026-07-17'
+method: searched
+source: https://docs.alkera.ai/installation
+notes: >-
+  Alkera ships a first-party CLI (installed via a shell/PowerShell script from
+  releases.alkera.ai) and a first-party IDE extension published to the Visual Studio
+  Marketplace and the Open VSX Registry (publisher: alkera-ai). No language client
+  SDKs (npm/PyPI/Maven/etc.) are published — Alkera is consumed as a CLI + editor
+  extension, not as a REST client library.
+packages:
+  - kind: cli
+    language: multi
+    registry: vendor
+    name: alkera
+    url: https://releases.alkera.ai/install.sh
+    install: "curl -fsSL https://releases.alkera.ai/install.sh | sh"
+    install_windows: "irm https://releases.alkera.ai/install.ps1 | iex"
+    binary: alkera
+    architectures: [x64, arm64]
+    official: true
+  - kind: ide-extension
+    language: typescript
+    registry: vs-marketplace
+    name: alkera-ai.alkera
+    url: https://marketplace.visualstudio.com/items?itemName=alkera-ai.alkera
+    install: "vscode:extension/alkera-ai.alkera"
+    official: true
+  - kind: ide-extension
+    language: typescript
+    registry: open-vsx
+    name: alkera-ai/alkera
+    url: https://open-vsx.org/extension/alkera-ai/alkera
+    install: "Search 'Alkera AI' in Cursor / Windsurf / VS Code forks"
+    official: true

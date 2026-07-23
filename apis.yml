@@ -1,7 +1,17 @@
 aid: alkera-ai
 name: Alkera Ai
-description: Alkera Ai is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Alkera is an AI data-engineering agent that works across your data stack from the command
+  line and inside your editor to build, migrate, optimize, and debug data pipelines. It ships
+  as a CLI and an IDE extension (VS Code and Open VSX forks such as Cursor and Windsurf), and
+  pairs a cross-platform column-level lineage engine with a living knowledge base so the agent
+  understands what your data means and what your team already decided about it. Alkera connects
+  natively to 14+ platforms including Snowflake, Databricks, BigQuery, dbt, and Airflow, builds
+  new pipelines end to end (sources, models, tests, orchestration), migrates legacy systems
+  while verifying functional equivalence, removes dead pipelines, refactors slow models, and
+  performs root-cause analysis with blast-radius awareness. It ranked first on DataAgentBench
+  (83.28% Pass@1). Enterprise deployments add SSO/SAML, SCIM & IAM, audit logs, pooled usage,
+  VPC and on-prem deployment, zero data retention by default, data residency controls, and SLAs.
 url: https://raw.githubusercontent.com/api-evangelist/alkera-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +19,75 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://alkera.ai/og-image.png
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Data Engineering
+- AI Agents
+- Data Pipelines
+- Data Lineage
+- Developer Tools
+- CLI
+- IDE Extension
+- Data Stack
 apis: []
+common:
+- type: DomainSecurity
+  url: security/alkera-ai-domain-security.yml
+- type: Website
+  url: https://alkera.ai
+- type: DeveloperPortal
+  url: https://docs.alkera.ai
+- type: Documentation
+  url: https://docs.alkera.ai
+- type: GettingStarted
+  url: https://docs.alkera.ai/quickstart
+- type: Installation
+  url: https://docs.alkera.ai/installation
+- type: Pricing
+  url: https://alkera.ai/pricing
+- type: SignUp
+  url: https://app.alkera.ai
+- type: Login
+  url: https://app.alkera.ai
+- type: TermsOfService
+  url: https://alkera.ai/tos
+- type: PrivacyPolicy
+  url: https://alkera.ai/privacy-policy
+- type: ChangeLog
+  url: https://docs.alkera.ai/changelog
+- type: ChangeLog
+  name: Alkera changelog artifact
+  url: changelog/alkera-ai-changelog.yml
+- type: LLMsTxt
+  url: llms/alkera-ai-llms.txt
+- type: Packages
+  url: packages/alkera-ai-packages.yml
+- type: CLI
+  url: cli/alkera-ai-cli.yml
+- type: Lifecycle
+  url: lifecycle/alkera-ai-lifecycle.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,15 @@
+# Alkera
+
+> Documentation for Alkera, the data engineering agent.
+
+## Docs
+
+- [Changelog](https://docs.alkera.ai/changelog.md): Releases for the Alkera IDE extension and CLI.
+- [Agent & Tools](https://docs.alkera.ai/foundations/agent-and-tools.md): How the agent works: effects, permission modes, and the tools it acts through.
+- [Knowledge Base](https://docs.alkera.ai/foundations/knowledge-base.md): Your project's memory: what the data means, and what your team already decided about it.
+- [Data Lineage](https://docs.alkera.ai/foundations/lineage.md): The graph of how your data is produced, and how Alkera uses it to measure blast radius.
+- [Plugins & Connections](https://docs.alkera.ai/foundations/plugins-and-connections.md): How Alkera reaches your data stack, and what each integration is allowed to do.
+- [Teams](https://docs.alkera.ai/foundations/teams.md): Organizations, teams, members, and roles.
+- [Overview](https://docs.alkera.ai/index.md): A data engineering agent that works across your data stack with governance, lineage, and a living knowledge base.
+- [Installation](https://docs.alkera.ai/installation.md): Install the Alkera IDE extension and CLI.
+- [Quickstart](https://docs.alkera.ai/quickstart.md): Your first run: the setup wizard, signing in, and starting a chat.

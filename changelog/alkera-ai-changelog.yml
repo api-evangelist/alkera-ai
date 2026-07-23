@@ -1,0 +1,19 @@
+generated: '2026-07-17'
+method: searched
+source: https://docs.alkera.ai/changelog
+scheme: semver
+release_model: >-
+  The IDE extension and the CLI follow the same version numbers and are released together.
+current_version: 0.1.1
+entries:
+  - version: 0.1.1
+    breaking: false
+    summary: Reliability fixes for installs, updates, and onboarding.
+    highlights:
+      - "IDE Extension: better handling of external processes holding install/update files."
+      - "IDE Extension: better support and diagnostics for Windows and WSL setups."
+      - "IDE Extension: Open Folder hint if the extension pane opens without an active project."
+      - "CLI: `alkera update` now completes even while the agent is running."
+  - version: 0.1.0
+    breaking: false
+    summary: Initial release of the extension and the CLI.
