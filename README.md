@@ -64,6 +64,86 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Alkera Ai is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Alkera is an AI data-engineering agent that works across your data stack from the command line and inside your editor to build, migrate, optimize, and debug data pipelines. It ships as a CLI and an IDE extension (VS Code and Open VSX forks such as Cursor and Windsurf), and pairs a cross-platform column-level lineage engine with a living knowledge base so the agent understands what your data means and what your team already decided about it. Alkera connects natively to 14+ platforms including Snowflake, Databricks, BigQuery, dbt, and Airflow, builds new pipelines end to end (sources, models, tests, orchestration), migrates legacy systems while verifying functional equivalence, removes dead pipelines, refactors slow models, and performs root-cause analysis with blast-radius awareness. It ranked first on DataAgentBench (83.28% Pass@1). Enterprise deployments add SSO/SAML, SCIM & IAM, audit logs, pooled usage, VPC and on-prem deployment, zero data retention by default, data residency controls, and SLAs.
 
-Backed by: y-combinator
+**Areas:** Company · Data Engineering · AI Agents · Data Pipeline · Data Lineage · Developer Tools · CLI · IDE Extension · Data Stack
+
+## Alkera Ai on APIs.io
+
+Everything profiled for Alkera Ai is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/alkera-ai/](https://apis.io/providers/alkera-ai/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Alkera Ai Domain Security](https://apis.io/security/alkera-ai/alkera-ai-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://alkera.ai)
+- [Documentation](https://docs.alkera.ai)
+- [Getting started](https://docs.alkera.ai/quickstart)
+- [Pricing](https://alkera.ai/pricing)
+- [Sign up](https://app.alkera.ai)
+- [Changelog](https://docs.alkera.ai/changelog)
+- [Terms of service](https://alkera.ai/tos)
+- [Privacy policy](https://alkera.ai/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 21.3** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 38.1 |
+| Access clarity | 31.6 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/alkera-ai/](https://apis.io/providers/alkera-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Alkera Ai: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/alkera-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
